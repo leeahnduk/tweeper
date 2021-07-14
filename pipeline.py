@@ -4,7 +4,7 @@ from sys import argv
 import apache_beam as beam
 import argparse
 
-PROJECT_ID = '<YOUR_PROJECT_ID>'
+PROJECT_ID = 'authentic-codex-307607'
 SUBSCRIPTION = 'projects/' + PROJECT_ID + '/subscriptions/tweep-reader'
 SCHEMA = 'created_at:TIMESTAMP,tweep_id:STRING,text:STRING,user:STRING,flagged:BOOLEAN'
 

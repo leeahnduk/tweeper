@@ -6,7 +6,7 @@ import json
 import datetime
 import time
 
-PROJECT_ID = '<YOUR_PROJECT_ID>'
+PROJECT_ID = 'authentic-codex-307607'
 TOPIC = 'tweeps'
 
 usernames = []
